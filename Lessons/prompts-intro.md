@@ -1,8 +1,8 @@
 # Prompting Introduction
 
-Prompt engineering is a relatively new discipline for developing and optimizing prompts to efficiently use language models (LMs) for a wide variety of applications and research topics. Prompt engineering skills help to better understand the capabilities and limitations of large language models (LLMs). Researchers use prompt engineering to improve the capacity of LLMs on a wide range of common and complex tasks such as question answering and arithmetic reasoning. Developers use prompt engineering to design robust and effective prompting techniques that interface with LLMs and other tools.
+Prompt engineering is a new discipline that focuses on developing and optimizing prompts to effectively utilize language models (LMs) for various applications and research topics. It involves improving our understanding of the capabilities and limitations of large language models (LLMs), and enhancing their performance on tasks ranging from simple question answering to complex arithmetic reasoning. Developers use prompt engineering to create robust and effective prompting techniques that can interface with LLMs and other tools.
 
-This guide covers the basics of standard prompts to provide a rough idea of how to use prompts to interact and instruct large language models (LLMs). 
+To help beginners get started with using prompts to interact with LLMs, this guide covers the basics of standard prompts. It provides a general idea of how prompts work and how to use them effectively.
 
 All examples are tested with `text-davinci-003` (using OpenAI's playground) unless otherwise specified. It uses the default configurations, e.g., `temperature=0.7` and `top-p=1`.
 
