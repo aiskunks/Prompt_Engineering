@@ -14,13 +14,111 @@ Topic:
 - [General Tips for Designing Prompts](#general-tips-for-designing-prompts)
 
 ---
+## General Rules of Thumb 
 
 Prompt engineering is a powerful tool for utilizing language models (LMs), but the quality of results is dependent on the amount of information provided. A prompt can include instructions, questions, and examples to guide the LM's output. It's essential to design effective prompts to instruct the model on a particular task, a practice known as prompt engineering.
 
 The guide provides a comprehensive overview of standard prompts, few-shot prompting, and the different components that make up a prompt, such as instruction, context, input data, and output indicator. The guide also provides general tips for designing effective prompts, such as being specific, avoiding impreciseness, and starting simple.
 
 When working with prompts, you can also adjust the LM settings to control the results, such as temperature and top_p. Finally, the guide encourages experimentation and iteration to optimize prompts for specific applications.
+Rules of Thumb and Examples
+Note: the "{text input here}" is a placeholder for actual text/context
 
+Use the latest model
+For best results, we generally recommend using the latest, most capable models. As of November 2022, the best options are the “text-davinci-003” model for text generation, and the “code-davinci-002” model for code generation.
+
+Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context
+Less effective ❌:
+
+Summarize the text below as a bullet point list of the most important points.
+
+{text input here}
+
+Better ✅:
+
+Summarize the text below as a bullet point list of the most important points.
+
+python
+Copy code
+Text: """
+{text input here}
+"""
+Be specific, descriptive and as detailed as possible about the desired context, outcome, length, format, style, etc
+Be specific about the context, outcome, length, format, style, etc
+
+Less effective ❌:
+
+Write a poem about OpenAI.
+
+Better ✅:
+
+Write a short inspiring poem about OpenAI, focusing on the recent DALL-E product launch (DALL-E is a text to image ML model) in the style of a {famous poet}
+
+Articulate the desired output format through examples (example 1, example 2).
+Less effective ❌:
+
+Extract the entities mentioned in the text below. Extract the following 4 entity types: company names, people names, specific topics and themes.
+
+Text: {text}
+
+Better ✅:
+
+Extract the important entities mentioned in the text below. First extract all company names, then extract all people names, then extract specific topics which fit the content and finally extract general overarching themes
+
+Desired format:
+
+yaml
+Copy code
+Company names: <comma_separated_list_of_company_names>
+People names: -||-
+Specific topics: -||-
+General themes: -||-
+Text: {text}
+
+Start with zero-shot, then few-shot (example), neither of them worked, then fine-tune
+✅ Zero-shot
+
+Extract keywords from the below text.
+
+Text: {text}
+
+Keywords:
+
+✅ Few-shot - provide a couple of examples
+
+Extract keywords from the corresponding texts below.
+
+Text 1: Stripe provides APIs that web developers can use to integrate payment processing into their websites and mobile applications.
+Keywords 1: Stripe, payment processing, APIs, web developers, websites, mobile applications
+
+Text 2: OpenAI has trained cutting-edge language models that are very good at understanding and generating text. Our API provides access to these models and can be used to solve virtually any task that involves processing language.
+Keywords 2: OpenAI, language models, text processing, API.
+
+Text 3: {text}
+Keywords 3:
+
+✅ Fine-tune: see fine-tune best practices here.
+
+Reduce “fluffy” and imprecise descriptions
+Less effective ❌:
+
+The description for this product should be fairly short, a few sentences only, and not too much more.
+
+Better ✅:
+
+Use a 3 to 5 sentence paragraph to describe this product.
+
+Instead of just saying what not to do, say what to do instead
+Less effective ❌:
+
+The following is a conversation between an Agent and a Customer. DO NOT ASK USERNAME OR PASSWORD. DO NOT REPEAT.
+
+Customer: I can’t log in to my account.
+Agent:
+
+Better ✅:
+
+The following is a conversation between an Agent and a Customer. The agent will attempt to diagnose the problem and suggest a solution, whilst refraining from asking any questions related to PII. Instead of asking for PII,
 ## Basic Prompts
 
 You can already achieve a lot with prompts, but the quality of results depends on how much information you provide it. A prompt can contain information like the `instruction` or `question` you are passing to the model and include other details such as `inputs` or `examples`. 
