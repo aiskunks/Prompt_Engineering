@@ -7,8 +7,8 @@ In response to the growing interest in LLM development, we have created a compre
 ---
 ## Announcements / Updates
 
-[Follow us on Instagram](https://twitter.com/dair_ai)
-[Follow us on GitHub](https://twitter.com/dair_ai)
+[Follow us on Instagram](https://www.instagram.com/skunksai/)       
+[Follow us on GitHub](https://github.com/aiskunks/)       
 
 ---
 ## YouTube
