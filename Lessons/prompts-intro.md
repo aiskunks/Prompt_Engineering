@@ -15,6 +15,12 @@ Topic:
 
 ---
 
+Prompt engineering is a powerful tool for utilizing language models (LMs), but the quality of results is dependent on the amount of information provided. A prompt can include instructions, questions, and examples to guide the LM's output. It's essential to design effective prompts to instruct the model on a particular task, a practice known as prompt engineering.
+
+The guide provides a comprehensive overview of standard prompts, few-shot prompting, and the different components that make up a prompt, such as instruction, context, input data, and output indicator. The guide also provides general tips for designing effective prompts, such as being specific, avoiding impreciseness, and starting simple.
+
+When working with prompts, you can also adjust the LM settings to control the results, such as temperature and top_p. Finally, the guide encourages experimentation and iteration to optimize prompts for specific applications.
+
 ## Basic Prompts
 
 You can already achieve a lot with prompts, but the quality of results depends on how much information you provide it. A prompt can contain information like the `instruction` or `question` you are passing to the model and include other details such as `inputs` or `examples`. 
