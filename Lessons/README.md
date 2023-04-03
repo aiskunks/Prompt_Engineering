@@ -1,10 +1,7 @@
 ## Guides
+- [Prompt Engineering - Getting Started with Prompt Engineering - Red Rosa](https://github.com/aiskunks/Prompt_Engineering/blob/main/Lessons/Prompt_Engineering_Red_Rosa/Prompt_Engineering_Red_Rosa.ipynb)
+The first tutorial in a book on Prompt Engineering, titled "Getting Started with Prompt Engineering - Red Rosa," will explore using ChatGPT to rewrite "Little Red Riding Hood" as "Red Rosa" in the style of Shel Silverstein and generate art bot prompts with Midjourney.
+  
+  
+  
 
-- [Prompt Engineering - Introduction](/guides/prompts-intro.md)
-- [Prompt Engineering - Basic Prompting](/guides/prompts-basic-usage.md)
-- [Prompt Engineering - Advanced Prompting](/guides/prompts-advanced-usage.md)
-- [Prompt Engineering - Applications](/guides/prompts-applications.md)
-- [Prompt Engineering - ChatGPT](/guides/prompts-chatgpt.md)
-- [Prompt Engineering - Adversarial Prompting](/guides/prompts-adversarial.md)
-- [Prompt Engineering - Reliability](/guides/prompts-reliability.md)
-- [Prompt Engineering - Miscellaneous Topics](/guides/prompts-miscellaneous.md)
