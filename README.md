@@ -19,6 +19,4 @@ Prompt engineering is a relatively new discipline for developing and optimizing 
 
 
 ## License
-
-[MIT License](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/LICENSE.md)
-
+[MIT License](https://opensource.org/license/mit/)  
