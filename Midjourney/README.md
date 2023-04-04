@@ -16,5 +16,5 @@ These notebooks are a bunch of experiments using prompt engineering to get bette
 
 ## License
 
-[MIT License](https://github.com/aiskunks/Prompt-Engineering/blob/main/LICENSE.md)
+[MIT License](https://opensource.org/license/mit/)  
 
