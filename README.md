@@ -1,6 +1,10 @@
-# Prompt Engineering Guide - Midjourney
+# Prompt Engineering Guide
 
-These notebooks are a bunch of experiments using prompt engineering to get better results with Midjourney.
+These notebooks are a bunch of experiments with prompt engineering.
+
+Prompt engineering is a relatively new discipline for developing and optimizing prompts to efficiently use language models (LMs) for a wide variety of applications and research topics. Prompt engineering skills help to better understand the capabilities and limitations of large language models (LLMs). Researchers use prompt engineering to improve the capacity of LLMs on a wide range of common and complex tasks such as question answering and arithmetic reasoning. Developers use prompt engineering to design robust and effective prompting techniques that interface with LLMs and other tools.
+
+
 
 ---
 ## Announcements / Updates
@@ -11,20 +15,6 @@ These notebooks are a bunch of experiments using prompt engineering to get bette
 ---
 ## YouTube
 
-
----
-
-## Guides
-Please note that the guides below are now outdated. You can find the most up-to-date guides on our new website [https://www.promptingguide.ai/](https://www.promptingguide.ai/). 
-
-- [Prompt Engineering - Introduction](/Lessons/prompts-intro.md)
-- [Prompt Engineering - Basic Prompting](/Lessons/prompts-basic-usage.md)
-- [Prompt Engineering - Advanced Prompting](/Lessons/prompts-advanced-usage.md)
-- [Prompt Engineering - Applications](/Lessons/prompts-applications.md)
-- [Prompt Engineering - ChatGPT](/Lessons/prompts-chatgpt.md)
-- [Prompt Engineering - Adversarial Prompting](/Lessons/prompts-adversarial.md)
-- [Prompt Engineering - Reliability](/Lessons/prompts-reliability.md)
-- [Prompt Engineering - Miscellaneous Topics](/Lessons/prompts-miscellaneous.md)
 
 
 
