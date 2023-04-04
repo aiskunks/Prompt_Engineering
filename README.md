@@ -1,8 +1,6 @@
-# Prompt Engineering Guide
+# Prompt Engineering Guide - Midjourney
 
-Prompt engineering is a new discipline focused on developing and optimizing prompts for language models (LMs). It has become increasingly important for researchers and developers alike to have prompt engineering skills to better understand the capabilities and limitations of large language models (LLMs) and to improve their performance on a wide range of tasks, from simple question answering to complex arithmetic reasoning.
-
-In response to the growing interest in LLM development, we have created a comprehensive prompt engineering guide that includes the latest research papers, learning guides, lectures, references, and tools related to prompt engineering.
+These notebooks are a bunch of experiments using prompt engineering to get better results with Midjourney.
 
 ---
 ## Announcements / Updates
